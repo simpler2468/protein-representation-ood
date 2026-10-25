@@ -1,0 +1,133 @@
+seed,representation,graph,model,label,threshold,selected_on
+42,AAC,False,AAC,Membrane,0.30000001192092896,validation_overall
+42,AAC,False,AAC,Cytoplasm,0.3499999940395355,validation_overall
+42,AAC,False,AAC,Nucleus,0.30000001192092896,validation_overall
+42,AAC,False,AAC,Extracellular,0.25,validation_overall
+42,AAC,False,AAC,Cell membrane,0.25,validation_overall
+42,AAC,False,AAC,Mitochondrion,0.15000000596046448,validation_overall
+42,AAC,False,AAC,Plastid,0.05000000074505806,validation_overall
+42,AAC,False,AAC,Endoplasmic reticulum,0.15000000596046448,validation_overall
+42,AAC,False,AAC,Lysosome/Vacuole,0.10000000149011612,validation_overall
+42,AAC,False,AAC,Golgi apparatus,0.10000000149011612,validation_overall
+42,AAC,False,AAC,Peroxisome,0.05000000074505806,validation_overall
+42,AAC,True,AAC+Graph,Membrane,0.3499999940395355,validation_connected
+42,AAC,True,AAC+Graph,Cytoplasm,0.30000001192092896,validation_connected
+42,AAC,True,AAC+Graph,Nucleus,0.25,validation_connected
+42,AAC,True,AAC+Graph,Extracellular,0.25,validation_connected
+42,AAC,True,AAC+Graph,Cell membrane,0.3499999940395355,validation_connected
+42,AAC,True,AAC+Graph,Mitochondrion,0.20000000298023224,validation_connected
+42,AAC,True,AAC+Graph,Plastid,0.15000000596046448,validation_connected
+42,AAC,True,AAC+Graph,Endoplasmic reticulum,0.20000000298023224,validation_connected
+42,AAC,True,AAC+Graph,Lysosome/Vacuole,0.15000000596046448,validation_connected
+42,AAC,True,AAC+Graph,Golgi apparatus,0.05000000074505806,validation_connected
+42,AAC,True,AAC+Graph,Peroxisome,0.05000000074505806,validation_connected
+42,ESM2,False,ESM2,Membrane,0.4000000059604645,validation_overall
+42,ESM2,False,ESM2,Cytoplasm,0.3499999940395355,validation_overall
+42,ESM2,False,ESM2,Nucleus,0.4000000059604645,validation_overall
+42,ESM2,False,ESM2,Extracellular,0.6000000238418579,validation_overall
+42,ESM2,False,ESM2,Cell membrane,0.25,validation_overall
+42,ESM2,False,ESM2,Mitochondrion,0.3499999940395355,validation_overall
+42,ESM2,False,ESM2,Plastid,0.25,validation_overall
+42,ESM2,False,ESM2,Endoplasmic reticulum,0.20000000298023224,validation_overall
+42,ESM2,False,ESM2,Lysosome/Vacuole,0.10000000149011612,validation_overall
+42,ESM2,False,ESM2,Golgi apparatus,0.15000000596046448,validation_overall
+42,ESM2,False,ESM2,Peroxisome,0.15000000596046448,validation_overall
+42,ESM2,True,ESM2+Graph,Membrane,0.5,validation_connected
+42,ESM2,True,ESM2+Graph,Cytoplasm,0.3499999940395355,validation_connected
+42,ESM2,True,ESM2+Graph,Nucleus,0.30000001192092896,validation_connected
+42,ESM2,True,ESM2+Graph,Extracellular,0.6499999761581421,validation_connected
+42,ESM2,True,ESM2+Graph,Cell membrane,0.30000001192092896,validation_connected
+42,ESM2,True,ESM2+Graph,Mitochondrion,0.3499999940395355,validation_connected
+42,ESM2,True,ESM2+Graph,Plastid,0.15000000596046448,validation_connected
+42,ESM2,True,ESM2+Graph,Endoplasmic reticulum,0.25,validation_connected
+42,ESM2,True,ESM2+Graph,Lysosome/Vacuole,0.20000000298023224,validation_connected
+42,ESM2,True,ESM2+Graph,Golgi apparatus,0.15000000596046448,validation_connected
+42,ESM2,True,ESM2+Graph,Peroxisome,0.05000000074505806,validation_connected
+43,AAC,False,AAC,Membrane,0.30000001192092896,validation_overall
+43,AAC,False,AAC,Cytoplasm,0.30000001192092896,validation_overall
+43,AAC,False,AAC,Nucleus,0.30000001192092896,validation_overall
+43,AAC,False,AAC,Extracellular,0.25,validation_overall
+43,AAC,False,AAC,Cell membrane,0.20000000298023224,validation_overall
+43,AAC,False,AAC,Mitochondrion,0.10000000149011612,validation_overall
+43,AAC,False,AAC,Plastid,0.05000000074505806,validation_overall
+43,AAC,False,AAC,Endoplasmic reticulum,0.15000000596046448,validation_overall
+43,AAC,False,AAC,Lysosome/Vacuole,0.10000000149011612,validation_overall
+43,AAC,False,AAC,Golgi apparatus,0.10000000149011612,validation_overall
+43,AAC,False,AAC,Peroxisome,0.05000000074505806,validation_overall
+43,AAC,True,AAC+Graph,Membrane,0.4000000059604645,validation_connected
+43,AAC,True,AAC+Graph,Cytoplasm,0.30000001192092896,validation_connected
+43,AAC,True,AAC+Graph,Nucleus,0.25,validation_connected
+43,AAC,True,AAC+Graph,Extracellular,0.25,validation_connected
+43,AAC,True,AAC+Graph,Cell membrane,0.3499999940395355,validation_connected
+43,AAC,True,AAC+Graph,Mitochondrion,0.20000000298023224,validation_connected
+43,AAC,True,AAC+Graph,Plastid,0.15000000596046448,validation_connected
+43,AAC,True,AAC+Graph,Endoplasmic reticulum,0.20000000298023224,validation_connected
+43,AAC,True,AAC+Graph,Lysosome/Vacuole,0.10000000149011612,validation_connected
+43,AAC,True,AAC+Graph,Golgi apparatus,0.05000000074505806,validation_connected
+43,AAC,True,AAC+Graph,Peroxisome,0.05000000074505806,validation_connected
+43,ESM2,False,ESM2,Membrane,0.3499999940395355,validation_overall
+43,ESM2,False,ESM2,Cytoplasm,0.44999998807907104,validation_overall
+43,ESM2,False,ESM2,Nucleus,0.4000000059604645,validation_overall
+43,ESM2,False,ESM2,Extracellular,0.3499999940395355,validation_overall
+43,ESM2,False,ESM2,Cell membrane,0.3499999940395355,validation_overall
+43,ESM2,False,ESM2,Mitochondrion,0.4000000059604645,validation_overall
+43,ESM2,False,ESM2,Plastid,0.30000001192092896,validation_overall
+43,ESM2,False,ESM2,Endoplasmic reticulum,0.20000000298023224,validation_overall
+43,ESM2,False,ESM2,Lysosome/Vacuole,0.10000000149011612,validation_overall
+43,ESM2,False,ESM2,Golgi apparatus,0.10000000149011612,validation_overall
+43,ESM2,False,ESM2,Peroxisome,0.05000000074505806,validation_overall
+43,ESM2,True,ESM2+Graph,Membrane,0.30000001192092896,validation_connected
+43,ESM2,True,ESM2+Graph,Cytoplasm,0.44999998807907104,validation_connected
+43,ESM2,True,ESM2+Graph,Nucleus,0.30000001192092896,validation_connected
+43,ESM2,True,ESM2+Graph,Extracellular,0.6499999761581421,validation_connected
+43,ESM2,True,ESM2+Graph,Cell membrane,0.3499999940395355,validation_connected
+43,ESM2,True,ESM2+Graph,Mitochondrion,0.3499999940395355,validation_connected
+43,ESM2,True,ESM2+Graph,Plastid,0.30000001192092896,validation_connected
+43,ESM2,True,ESM2+Graph,Endoplasmic reticulum,0.30000001192092896,validation_connected
+43,ESM2,True,ESM2+Graph,Lysosome/Vacuole,0.4000000059604645,validation_connected
+43,ESM2,True,ESM2+Graph,Golgi apparatus,0.05000000074505806,validation_connected
+43,ESM2,True,ESM2+Graph,Peroxisome,0.10000000149011612,validation_connected
+44,AAC,False,AAC,Membrane,0.30000001192092896,validation_overall
+44,AAC,False,AAC,Cytoplasm,0.3499999940395355,validation_overall
+44,AAC,False,AAC,Nucleus,0.30000001192092896,validation_overall
+44,AAC,False,AAC,Extracellular,0.20000000298023224,validation_overall
+44,AAC,False,AAC,Cell membrane,0.25,validation_overall
+44,AAC,False,AAC,Mitochondrion,0.10000000149011612,validation_overall
+44,AAC,False,AAC,Plastid,0.05000000074505806,validation_overall
+44,AAC,False,AAC,Endoplasmic reticulum,0.15000000596046448,validation_overall
+44,AAC,False,AAC,Lysosome/Vacuole,0.10000000149011612,validation_overall
+44,AAC,False,AAC,Golgi apparatus,0.10000000149011612,validation_overall
+44,AAC,False,AAC,Peroxisome,0.05000000074505806,validation_overall
+44,AAC,True,AAC+Graph,Membrane,0.4000000059604645,validation_connected
+44,AAC,True,AAC+Graph,Cytoplasm,0.3499999940395355,validation_connected
+44,AAC,True,AAC+Graph,Nucleus,0.25,validation_connected
+44,AAC,True,AAC+Graph,Extracellular,0.25,validation_connected
+44,AAC,True,AAC+Graph,Cell membrane,0.3499999940395355,validation_connected
+44,AAC,True,AAC+Graph,Mitochondrion,0.20000000298023224,validation_connected
+44,AAC,True,AAC+Graph,Plastid,0.10000000149011612,validation_connected
+44,AAC,True,AAC+Graph,Endoplasmic reticulum,0.25,validation_connected
+44,AAC,True,AAC+Graph,Lysosome/Vacuole,0.15000000596046448,validation_connected
+44,AAC,True,AAC+Graph,Golgi apparatus,0.05000000074505806,validation_connected
+44,AAC,True,AAC+Graph,Peroxisome,0.05000000074505806,validation_connected
+44,ESM2,False,ESM2,Membrane,0.30000001192092896,validation_overall
+44,ESM2,False,ESM2,Cytoplasm,0.4000000059604645,validation_overall
+44,ESM2,False,ESM2,Nucleus,0.44999998807907104,validation_overall
+44,ESM2,False,ESM2,Extracellular,0.44999998807907104,validation_overall
+44,ESM2,False,ESM2,Cell membrane,0.4000000059604645,validation_overall
+44,ESM2,False,ESM2,Mitochondrion,0.30000001192092896,validation_overall
+44,ESM2,False,ESM2,Plastid,0.30000001192092896,validation_overall
+44,ESM2,False,ESM2,Endoplasmic reticulum,0.30000001192092896,validation_overall
+44,ESM2,False,ESM2,Lysosome/Vacuole,0.10000000149011612,validation_overall
+44,ESM2,False,ESM2,Golgi apparatus,0.10000000149011612,validation_overall
+44,ESM2,False,ESM2,Peroxisome,0.05000000074505806,validation_overall
+44,ESM2,True,ESM2+Graph,Membrane,0.4000000059604645,validation_connected
+44,ESM2,True,ESM2+Graph,Cytoplasm,0.4000000059604645,validation_connected
+44,ESM2,True,ESM2+Graph,Nucleus,0.25,validation_connected
+44,ESM2,True,ESM2+Graph,Extracellular,0.550000011920929,validation_connected
+44,ESM2,True,ESM2+Graph,Cell membrane,0.44999998807907104,validation_connected
+44,ESM2,True,ESM2+Graph,Mitochondrion,0.3499999940395355,validation_connected
+44,ESM2,True,ESM2+Graph,Plastid,0.30000001192092896,validation_connected
+44,ESM2,True,ESM2+Graph,Endoplasmic reticulum,0.30000001192092896,validation_connected
+44,ESM2,True,ESM2+Graph,Lysosome/Vacuole,0.20000000298023224,validation_connected
+44,ESM2,True,ESM2+Graph,Golgi apparatus,0.10000000149011612,validation_connected
+44,ESM2,True,ESM2+Graph,Peroxisome,0.05000000074505806,validation_connected

@@ -1,0 +1,17 @@
+name: protein-ood
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=2.2
+  - pandas=2.3
+  - scikit-learn=1.7
+  - matplotlib=3.10
+  - pyyaml=6.0
+  - tqdm
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch==2.9.0
+      - transformers==4.57.6
+      - iterative-stratification==0.1.9

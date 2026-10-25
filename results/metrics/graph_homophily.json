@@ -1,0 +1,7 @@
+{
+  "train_train_edges": 96463,
+  "sequence_edge_shared_label_rate": 0.8711734032737941,
+  "random_pair_shared_label_rate": 0.3420482464779242,
+  "definition": "Fraction of pairs sharing at least one positive localization label",
+  "proteins_with_training_neighbor": 13682
+}

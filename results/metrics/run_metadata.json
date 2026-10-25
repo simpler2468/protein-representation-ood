@@ -1,0 +1,69 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 50,
+  "device": "cpu",
+  "python": "3.10.22",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.9.0+cu128",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "scikit_learn": "1.7.2",
+  "split_sizes": {
+    "train": 17145,
+    "val": 5696,
+    "test": 5462
+  },
+  "test_has_train_neighbor": 940,
+  "test_no_train_neighbor": 4522,
+  "similarity_bin_sizes": {
+    "fident_0.30-0.40": 776,
+    "fident_0.40-0.60": 112,
+    "fident_>=0.60": 52
+  },
+  "config": {
+    "project": {
+      "seed_list": [
+        42,
+        43,
+        44
+      ]
+    },
+    "data": {
+      "table": "data/processed/deeploc_multilabel.csv",
+      "esm_embeddings": "data/processed/esm2_t6_embeddings.npz",
+      "mmseqs_hits": "data/mmseqs/all_vs_all.tsv",
+      "split_column": "split_homology"
+    },
+    "graph": {
+      "min_fident": 0.3,
+      "min_coverage": 0.5,
+      "top_k": 8
+    },
+    "model": {
+      "baseline_hidden_dim": 256,
+      "attention_hidden_dim": 128,
+      "correction_hidden_dim": 256,
+      "dropout": 0.2
+    },
+    "training": {
+      "epochs": 50,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "baseline_batch_size": 256,
+      "graph_batch_size": 128,
+      "evaluation_batch_size": 256,
+      "threshold_grid_start": 0.05,
+      "threshold_grid_stop": 0.95,
+      "threshold_grid_steps": 19,
+      "num_threads": 8,
+      "device": "cpu"
+    },
+    "output": {
+      "root": "results"
+    }
+  }
+}

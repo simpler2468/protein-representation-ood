@@ -1,0 +1,31 @@
+# Environments and Python caches
+.conda/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor and local setup artifacts
+.vscode/
+.wsl-install/
+scripts/legacy/
+
+# Large or regenerable data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/mmseqs/*
+!data/mmseqs/.gitkeep
+
+# Model checkpoints and temporary experiment outputs
+results/checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Miscellaneous
+*.tmp
+*.log
+.DS_Store
+Thumbs.db

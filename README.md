@@ -127,11 +127,20 @@ Explicit homology consistently improves weak AAC representations, with particula
 
 ## Reproducibility
 
-Create the environment on the E: drive:
+Create the named Conda environment:
 
 ```powershell
-conda env create --prefix E:\z_data\protein-representation-ood\.conda\envs\protein-ood --file environment.yml
-conda activate E:\z_data\protein-representation-ood\.conda\envs\protein-ood
+conda env create -f environment.yml
+conda activate protein-ood
+```
+
+The checked-in environment includes the PyTorch CUDA 12.8 wheel index and was tested on Windows/WSL2 with an NVIDIA GPU. The default experiment configuration nevertheless uses `device: cpu`; set it to `cuda` only after confirming that PyTorch detects a compatible GPU. CPU-only Linux and macOS users should install the platform-appropriate PyTorch 2.9.0 build from the [official PyTorch installation guide](https://pytorch.org/get-started/locally/) and then install the remaining dependencies.
+
+Windows users who need to keep the environment on another drive may instead choose any local prefix, for example:
+
+```powershell
+conda env create --prefix D:\conda-envs\protein-ood --file environment.yml
+conda activate D:\conda-envs\protein-ood
 ```
 
 Download the DeepLoc table and prepare the processed data:
@@ -143,10 +152,10 @@ python scripts\export_fasta.py
 python scripts\extract_esm_embeddings.py
 ```
 
-Run MMseqs2 inside WSL2/Ubuntu. The project stays on the Windows E: drive:
+Run MMseqs2 inside WSL2/Ubuntu. Windows drives are mounted under `/mnt/<drive>/`; change the example path below to the location where you cloned the repository:
 
 ```bash
-cd /mnt/e/z_data/protein-representation-ood
+cd /mnt/d/path/to/protein-representation-ood
 mmseqs easy-search \
   data/processed/deeploc_sequences.fasta \
   data/processed/deeploc_sequences.fasta \
@@ -218,5 +227,6 @@ protein-representation-ood/
 - Graph connectivity depends on fixed identity and coverage thresholds.
 - Only 17.2% of homology-aware test proteins have a qualifying training neighbor.
 - Sequence homology is not equivalent to biological function or identical localization.
+- The lack of additional graph benefit does not demonstrate that ESM2 fully encodes homology information; complementary signals may also be limited by the particular graph construction and attention architecture used here.
 - The fixed 50-epoch budget is reproducible, but AAC validation performance was still improving near the end of some runs; a different predeclared budget may change absolute AAC scores.
 - The findings should not be generalized to all protein tasks without further evaluation.
